@@ -49,7 +49,3 @@ if st.button("Summarize"):
 
 st.markdown("--- Source: `t5-small` model from Hugging Face Transformers. --- ")
 
-with open("app.py", "w") as f:
-    f.write(app_code)
-
-print("Streamlit app code saved to app.py")
