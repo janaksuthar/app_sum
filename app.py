@@ -48,7 +48,6 @@ if st.button("Summarize"):
         st.warning("Please enter some text to summarize.")
 
 st.markdown("--- Source: `t5-small` model from Hugging Face Transformers. --- ")
-"""
 
 with open("app.py", "w") as f:
     f.write(app_code)
